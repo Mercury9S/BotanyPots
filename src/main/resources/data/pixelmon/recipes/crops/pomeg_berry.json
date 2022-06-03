@@ -1,0 +1,41 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pixelmon"
+        }
+    ],
+    "seed": {
+        "item": "pixelmon:pomeg_berry"
+    },
+    "categories": [
+        "dirt",
+        "grass"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "minecraft:sweet_berry_bush",
+        "properties": {
+            "age": 3
+        }
+    },
+    "results": [
+        {
+            "chance": 0.95,
+            "output": {
+                "item": "pixelmon:pomeg_berry"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "pixelmon:pomeg_berry"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        }
+    ]
+}
