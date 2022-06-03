@@ -1,0 +1,38 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pixelmon"
+        }
+    ],
+    "seed": {
+        "item": "pixelmon:white_apricorn"
+    },
+    "categories": [
+        "dirt",
+        "grass"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "minecraft:oak_sapling"
+    },
+    "results": [
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "pixelmon:white_apricorn"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "pixelmon:white_apricorn"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        }
+    ]
+}

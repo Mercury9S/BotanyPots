@@ -1,0 +1,8 @@
+{
+    "type": "botanypots:fertilizer",
+    "fertilizer": {
+        "item": "pixelmon:wailmer_pail"
+    },
+    "minTicks": 120,
+    "maxTicks": 170
+}
